@@ -38,11 +38,9 @@ def sudoku_solver(arr):
     return False
 question=[]
 for i in range(9):
-    l=[]
-    for j in range(9):
-        l.append=int(input())
+    for _ in range(9):
+        l = list(int(input().split()))
     question.append(l)
-print(question)
 if(sudoku_solver(question)):
     for i in range(9):
         print(question[i])
