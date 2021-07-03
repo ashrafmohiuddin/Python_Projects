@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import smtplib
 import time
 from files import url,headers,your_price,from_mail,to_mail,password
+# files.py contains UserAgent in headers, url of amazon product, from and to mail addresses , password of from_mail and Price you wanna track.
 
 def checkPrice(url,headers,your_price,from_mail,to_mail,password):
 
